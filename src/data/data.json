@@ -1,0 +1,107 @@
+{
+  "name": "Катик",
+  "date": "28 Jan",
+  "members": [
+    {
+      "id": 1,
+      "name": "Ramil"
+    },
+    {
+      "id": 2,
+      "name": "Rasim"
+    },
+    {
+      "id": 3,
+      "name": "Regina"
+    },
+    {
+      "id": 4,
+      "name": "Gulnaz"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Такси",
+      "price": 580,
+      "buyerId": 1
+    },
+    {
+      "id": 2,
+      "name": "Воки",
+      "price": 544,
+      "buyerId": 1
+    },
+    {
+      "id": 3,
+      "name": "Джин розовый",
+      "price": 700,
+      "buyerId": 1
+    },
+    {
+      "id": 4,
+      "name": "Ром пряный",
+      "price": 1376,
+      "buyerId": 1
+    },
+    {
+      "id": 5,
+      "name": "2 тейсти",
+      "price": 470,
+      "buyerId": 2
+    },
+    {
+      "id": 6,
+      "name": "1 гриль и 1 барбекю",
+      "price": 465,
+      "buyerId": 2
+    },
+    {
+      "id": 7,
+      "name": "Напитки",
+      "price": 445,
+      "buyerId": 1
+    }
+  ],
+  "memberProducts": [
+    {
+      "memberId": 1,
+      "productIds": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "memberId": 2,
+      "productIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "memberId": 3,
+      "productIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "memberId": 4,
+      "productIds": [
+        1,
+        6
+      ]
+    }
+  ]
+}
